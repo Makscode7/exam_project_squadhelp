@@ -1,0 +1,616 @@
+/* @import "./assets/css/reset.css" */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section.head {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+  border: 1px solid #ebebeb;
+}
+
+.phone {
+  width: 80%;
+  display: flex;
+}
+
+a.number {
+  text-decoration: none;
+  color: #28d2d0;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  padding: 20px;
+  margin-left: 380px;
+}
+
+a.number:hover {
+  color: #f18762;
+}
+
+svg.phoneIcon {
+  padding-right: 10px;
+  margin-bottom: -10px;
+}
+
+.checkIn {
+  width: 20%;
+  border-left: 1px solid #ebebeb;
+  line-height: 40px;
+  margin-right: 80px;
+}
+
+a.btnLOG,
+a.btnUP {
+  text-decoration: none;
+  color: #718888;
+  border-right: 1px solid #ebebeb;
+  font-weight: 550;
+  text-transform: uppercase;
+  font-size: 13.5px;
+  border-right: 1px solid #ebebeb;
+
+  padding: 0px 15px;
+}
+/* /////////////////////////////// */
+
+section.headNavigation {
+  width: 100%;
+  height: 80px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.headNav {
+  width: 37%;
+}
+
+img.headNav__photo {
+  width: 165px;
+  height: 55px;
+  position: relative;
+  top: 10px;
+  left: 190px;
+}
+
+nav.navigation {
+  width: 35%;
+}
+
+ul.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li.nav-list-item {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+
+a.nav-link {
+  text-decoration: none;
+  color: #5e7098;
+}
+
+a.nav-link:hover {
+  color: #f18762;
+  background-color: #efefef;
+}
+
+.btnNav {
+  width: 28%;
+}
+
+button.btn {
+  color: #28d2d0;
+  background-color: white;
+  border: 2px solid #28d2d0;
+  border-radius: 5px;
+  position: absolute;
+  top: 15px;
+  left: 1170px;
+  padding: 10px 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+button.btn:hover {
+  background-color: #28d2d0;
+  color: white;
+}
+
+/* /////////////////////////////// */
+
+section.infoSquad {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.infoSquad__img {
+  width: 50%;
+}
+
+img.infoSquadPhoto {
+  width: 580px;
+  height: 310px;
+  object-fit: cover;
+  margin: 90px 0px 0px 160px;
+}
+
+.infoSquad_info {
+  width: 50%;
+}
+
+h1.titleInfo {
+  font-family: Raleway Bold;
+  font-size: 36px;
+  color: #515b5f;
+  margin-top: 80px;
+}
+
+p.infoText {
+  font-family: Raleway regular;
+  font-size: 18px;
+  color: #333333;
+  width: 510px;
+  margin-top: 55px;
+  line-height: 25px;
+}
+
+/* /////////////////////////////// */
+
+h1.heading {
+  text-align: center;
+  padding: 0px 0px 50px 0px;
+  color: #515b5f;
+}
+
+section.steps {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+
+.nameH1,
+.h2Style,
+.numberLogo,
+.pStyles {
+  font-family: "Raleway Bold", sans-serif;
+  font-size: 36px;
+  color: #515b5f;
+}
+
+.card {
+  width: 200px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  background-color: #ebebeb;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.logo:hover {
+  background-color: #28d2d0;
+  color: white;
+}
+
+.numberLogo {
+  font-size: 30px;
+  padding-top: 25px;
+  color: #000000;
+}
+
+.h2Style {
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.pStyles {
+  line-height: 18px;
+  color: #333333;
+  font-size: 15px;
+}
+
+/* /////////////////////////////// */
+
+article.lineInContent {
+  width: 85%;
+  height: 135px;
+  background-color: #28d2d0;
+  margin: auto;
+  position: relative;
+}
+
+button.btnInLine {
+  font: 20px "Raleway Bold", sans-serif;
+  text-transform: uppercase;
+  background-color: #28d2d0;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 42px;
+  left: 540px;
+}
+
+button.btnInLine:hover {
+  background-color: white;
+  color: #28d2d0;
+}
+
+/* /////////////////////////////// */
+
+section.titleQuestions {
+  display: flex;
+}
+
+svg.iconQuestions {
+  min-width: 80px;
+  min-height: 80px;
+  color: #28d2d0;
+  margin: 50px 20px 30px 170px;
+}
+
+h1.title {
+  padding: 75px 0px;
+  color: #515b5f;
+  font-family: "Raleway Bold";
+  font-size: 30px;
+}
+
+hr.row {
+  width: 1180px;
+  margin-left: 170px;
+  margin-bottom: 10px;
+}
+
+/* /////////////////////////////// */
+
+section.listAllQuestions {
+  max-width: 1100px;
+  margin: 0px 200px;
+}
+
+h1.titleList {
+  padding: 20px 15px;
+  color: #515b5f;
+  font: 18px "Raleway Bold";
+  font-weight: 600;
+}
+
+p.pList {
+  padding-bottom: 20px;
+  font: 18px "Raleway Regular";
+  color: #333333;
+  padding: 15px 15px;
+}
+
+section.listAllQuestions > ul {
+  list-style-type: none;
+}
+
+ul:nth-child(even) {
+  background-color: #fafafa;
+}
+
+section.listAllQuestions ul li a {
+  color: #28d2d0;
+  text-decoration: underline;
+}
+
+section.listAllQuestions ul li a:hover {
+  color: #28d2d0;
+  text-decoration: none;
+}
+
+section.listAllQuestions ul li {
+  list-style-type: none;
+  margin-top: 25px;
+}
+/* /////////////////////////////// */
+
+section.blueStripe {
+  width: 100%;
+  height: 210px;
+  background-color: #455a89;
+  margin-top: 60px;
+  display: flex;
+  padding: 35px 0px;
+}
+
+.whiteCircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0px 40px 0px 220px;
+}
+
+svg.envelope {
+  position: relative;
+  top: 25px;
+  left: 25px;
+  color: #455a89;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.content {
+  font: 20px "Raleway regular";
+}
+
+h1.content__title {
+  padding: 10px 0px 30px 0px;
+}
+
+.blueStripeText {
+  color: white;
+  max-width: 700px;
+}
+
+.content h1 {
+  color: white;
+  font: 25px "Raleway Bold";
+  font-weight: 600;
+}
+
+.blueStripe__btn {
+  padding: 10px 80px 50px 50px;
+}
+
+button.btn__button {
+  padding: 22px 40px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: #455a89;
+  color: white;
+  font-weight: 1000;
+  font: 20px "Raleway Bold";
+  text-transform: uppercase;
+}
+
+button.btn__button:hover {
+  background-color: white;
+  color: #28d2d0;
+}
+
+.blueStripe .content p a {
+  color: #f18762;
+  text-decoration: none;
+}
+
+/* /////////////////////////////// */
+
+section.footerAB {
+  width: 100%;
+  height: 2200px;
+  background-color: #2b3030;
+}
+
+section.footerA {
+  width: 100%;
+  background-color: #2b3030;
+  padding: 75px 150px 45px 140px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section.footerB {
+  width: 100%;
+  background-color: #2b3030;
+  padding: 20px 150px 45px 140px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__content {
+  width: 260px;
+}
+
+.footer__content ul li a:hover {
+  color: #f18762;
+  text-decoration: underline;
+}
+
+.footerAB__href {
+  text-decoration: none;
+  color: #abadad;
+  padding-left: 200px;
+}
+
+.footerAB ul li {
+  background-color: #2b3030;
+}
+
+.footerAB__href:hover {
+  color: #f18762;
+  text-decoration: underline;
+}
+
+.footerAB__title {
+  margin: 0px 180px;
+  color: white;
+  font: 20px "Lato Bold";
+  padding-bottom: 30px;
+  border-bottom: 1px solid #555959;
+}
+
+section.footerB h1 {
+  font-size: 0;
+  width: 1px;
+  height: 1px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+section.footerA .footer__content .SQUADHELP ul li a,
+section.footerB .footer__content .SQUADHELP ul li a {
+  text-decoration: none;
+}
+
+section.footerA .footer__content .OUR-SERVICES ul li a,
+section.footerB .footer__content .OUR-SERVICES ul li a {
+  text-decoration: none;
+}
+
+section.footerA .footer__content .RESOURCES ul li a,
+section.footerB .footer__content .RESOURCES ul li a {
+  text-decoration: none;
+}
+
+section.footerA .footer__content .IMPORTANT-GUIDELINES ul li a,
+section.footerB .footer__content .IMPORTANT-GUIDELINES ul li a {
+  text-decoration: none;
+}
+
+section.footerA .footer__content .SQUADHELP ul li,
+section.footerB .footer__content .SQUADHELP ul li {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #2b3030;
+  padding-bottom: 7px;
+}
+
+section.footerA .footer__content .OUR-SERVICES ul li,
+section.footerB .footer__content .OUR-SERVICES ul li {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #2b3030;
+  padding-bottom: 7px;
+}
+
+section.footerA .footer__content .RESOURCES ul li,
+section.footerB .footer__content .RESOURCES ul li {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #2b3030;
+  padding-bottom: 7px;
+}
+
+section.footerA .footer__content .IMPORTANT-GUIDELINES ul li,
+section.footerB .footer__content .IMPORTANT-GUIDELINES ul li {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #2b3030;
+  padding-bottom: 7px;
+}
+
+section.footerA .footer__content .LEGAL ul li,
+section.footerB .footer__content .LEGAL ul li {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #2b3030;
+  padding-bottom: 7px;
+}
+
+.footer__content__title {
+  color: #ffffff;
+  margin: 20px 0px;
+  font: 16px "Raleway Regular";
+}
+
+.colorLinks {
+  color: #abadad;
+  padding-bottom: 7px;
+  font: 16px "Raleway Regular";
+}
+
+/* /////////////////////////////// */
+
+section.lowerFooter {
+  width: 100%;
+  height: 110px;
+  background-color: #232828;
+  display: flex;
+}
+
+.lowerFooter__logo {
+  padding: 40px 35px 20px 195px;
+}
+
+.Copyright {
+  width: 300px;
+  height: 30px;
+  border-left: 1px solid #3d4141;
+  margin-top: 45px;
+}
+
+.Copyright__text {
+  padding: 5px 25px;
+  color: #666868;
+  font: 16px "Lato Regular";
+}
+
+.facebook {
+  margin-left: 560px;
+  margin-top: 35px;
+}
+
+.social__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: #666868;
+  margin-right: 20px;
+}
+
+svg.facebook__icon,
+svg.twitter__icon {
+  margin: 7px;
+}
+
+.twitter {
+  margin-top: 35px;
+}
+
+/* /////////////////////////////// */
+
+.buttonUp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #8A5845;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.buttonUp:hover {
+  background-color: #f18762;
+  position: relative;
+}
+
+.arrowUp {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #F8C3B0;
+  margin: 13px;
+}
+
